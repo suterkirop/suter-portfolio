@@ -1,0 +1,243 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Suter - IT Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h2>Brian Suter</h2>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#skills" class="nav-link dropdown-toggle">Professional Overview</a>
+                        <div class="dropdown-menu">
+                            <a href="#about" class="dropdown-item">About Me</a>
+                            <a href="#skills" class="dropdown-item">Technical Skills</a>
+                            <a href="#projects" class="dropdown-item">Recent Projects</a>
+                        </div>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/brian-suter-38575218a" target="_blank" class="nav-link">Connect</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span id="typed-output"></span></h1>
+                    <p>A Professional IT Specialist</p>
+                    <div class="hero-buttons">
+                        <a href="https://www.linkedin.com/in/brian-suter-38575218a" class="btn btn-primary" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/suterkirop" class="btn btn-secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Versatile and innovative IT Specialist with comprehensive expertise spanning networking, cybersecurity, system administration, software development, and emerging technologies. Committed to delivering cutting-edge technological solutions that drive business efficiency, security, and digital transformation.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills">
+                <h2>Technical Skills</h2>
+                
+                <div id="hardware-skills" class="skill-category">
+                    <h3>Hardware Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-desktop"></i>
+                            <h4>Hardware Installation</h4>
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-tools"></i>
+                            <h4>Hardware Diagnostics</h4>
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-server"></i>
+                            <h4>Server Setup</h4>
+                            <div class="skill-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="networking-skills" class="skill-category">
+                    <h3>Networking</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-network-wired"></i>
+                            <h4>Network Configuration</h4>
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Network Security</h4>
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-diagnoses"></i>
+                            <h4>Network Troubleshooting</h4>
+                            <div class="skill-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="system-admin-skills" class="skill-category">
+                    <h3>System Administration</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-windows"></i>
+                            <h4>Windows Admin</h4>
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-linux"></i>
+                            <h4>Linux Admin</h4>
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-cloud"></i>
+                            <h4>Cloud Computing</h4>
+                            <div class="skill-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cybersecurity-skills" class="skill-category">
+                    <h3>Cybersecurity</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-lock"></i>
+                            <h4>Security Protocols</h4>
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-key"></i>
+                            <h4>Encryption</h4>
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-bug"></i>
+                            <h4>Penetration Testing</h4>
+                            <div class="skill-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="programming-skills" class="skill-category">
+                    <h3>Programming & Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-python"></i>
+                            <h4>Python</h4>
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-java"></i>
+                            <h4>Java</h4>
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <h4>Web Development</h4>
+                            <div class="skill-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <h2>Recent Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Network Infrastructure Upgrade</h3>
+                        <p>Designed and implemented a comprehensive network infrastructure upgrade for a mid-sized enterprise, improving network performance, security, and scalability.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag">Network Design</span>
+                            <span class="skill-tag">Cisco Networking</span>
+                            <span class="skill-tag">Security</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Cybersecurity Assessment</h3>
+                        <p>Conducted a thorough cybersecurity assessment for a financial institution, identifying vulnerabilities and implementing robust security measures to protect sensitive data.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag">Penetration Testing</span>
+                            <span class="skill-tag">Risk Assessment</span>
+                            <span class="skill-tag">Security Protocols</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Cloud Migration Project</h3>
+                        <p>Successfully migrated an organization's on-premises infrastructure to a hybrid cloud environment, optimizing performance and reducing operational costs.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag">AWS Cloud</span>
+                            <span class="skill-tag">Cloud Migration</span>
+                            <span class="skill-tag">Infrastructure as Code</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Automated Backup Solution</h3>
+                        <p>Developed a comprehensive automated backup and disaster recovery solution using Python scripting, ensuring data integrity and quick recovery.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag">Python Scripting</span>
+                            <span class="skill-tag">Backup Automation</span>
+                            <span class="skill-tag">Disaster Recovery</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>IoT Security System</h3>
+                        <p>Designed and implemented an IoT-based security monitoring system for a manufacturing facility, integrating smart sensors and real-time alert mechanisms.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag">IoT Security</span>
+                            <span class="skill-tag">Sensor Integration</span>
+                            <span class="skill-tag">Real-time Monitoring</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Enterprise Resource Planning Integration</h3>
+                        <p>Led the implementation of a comprehensive ERP system, integrating multiple business processes and improving organizational efficiency.</p>
+                        <div class="project-skills">
+                            <span class="skill-tag">ERP Implementation</span>
+                            <span class="skill-tag">System Integration</span>
+                            <span class="skill-tag">Business Process Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <a href="https://wa.me/97470463632" class="whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <footer>
+            <p>&copy; 2025 Brian Suter. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/brian-suter-38575218a" target="_blank">LinkedIn</a>
+                <a href="https://github.com/suterkirop" target="_blank">GitHub</a>
+                <a href="mailto:suter@technologist.com">Contact</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
